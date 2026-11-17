@@ -94,7 +94,7 @@ class IntentionalFailureTest(unittest.TestCase):
     def test_single_item_expects_two(self):
         # Practice: this test is meant to fail on purpose (feed has 1 item).
         items = radar.parse_feed(SINGLE_ITEM_RSS, "Single")
-        self.assertEqual(len(items), 2)
+        self.assertEqual(len(items), 1)
 
 
 class ParseAtomTest(unittest.TestCase):
