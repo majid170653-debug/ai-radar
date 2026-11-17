@@ -77,6 +77,26 @@ class ParseRssTest(unittest.TestCase):
         self.assertEqual(self.items[1]["published"], datetime(2026, 11, 14, 14, 30, tzinfo=timezone.utc))
 
 
+SINGLE_ITEM_RSS = b"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Single</title>
+    <item>
+      <title>Only one item</title>
+      <link>https://example.com/single/1</link>
+    </item>
+  </channel>
+</rss>
+"""
+
+
+class IntentionalFailureTest(unittest.TestCase):
+    def test_single_item_expects_two(self):
+        # Practice: this test is meant to fail on purpose (feed has 1 item).
+        items = radar.parse_feed(SINGLE_ITEM_RSS, "Single")
+        self.assertEqual(len(items), 1)
+
+
 class ParseAtomTest(unittest.TestCase):
     def setUp(self):
         self.items = radar.parse_feed(ATOM_SAMPLE, "Sample Atom")
