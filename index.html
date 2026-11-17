@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رادار هوش مصنوعی</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1d2330;
+      --muted: #5f6b7a;
+      --border: #e2e6eb;
+      --accent: #2f6fde;
+      --error-bg: #fff4f2;
+      --error-text: #9a2a1c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14171c;
+        --card: #1d2128;
+        --text: #e7eaee;
+        --muted: #9aa4b1;
+        --border: #2c323b;
+        --accent: #7aa7ff;
+        --error-bg: #3a1f1c;
+        --error-text: #ffb4a8;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Vazirmatn, Tahoma, "Segoe UI", sans-serif;
+      line-height: 1.8;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 16px 8px;
+    }
+    header img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 2px solid var(--border);
+    }
+    h1 { margin: 0; font-size: 1.7rem; }
+    #updated { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    main {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+    section h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent);
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+    }
+    article h3 { margin: 0 0 4px; font-size: 1rem; line-height: 1.6; }
+    article a { color: var(--accent); text-decoration: none; }
+    article a:hover { text-decoration: underline; }
+    .source { margin: 0 0 6px; color: var(--muted); font-size: 0.85rem; }
+    .summary { margin: 0; font-size: 0.92rem; }
+    .empty { color: var(--muted); font-size: 0.92rem; }
+    #error {
+      max-width: 1200px;
+      margin: 16px auto;
+      padding: 14px 16px;
+      background: var(--error-bg);
+      color: var(--error-text);
+      border-radius: 10px;
+    }
+    #error[hidden] { display: none; }
+    @media (max-width: 800px) {
+      main { grid-template-columns: 1fr; }
+      #error { margin: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="host.webp" alt="میزبان رادار هوش مصنوعی">
+    <div>
+      <h1>رادار هوش مصنوعی</h1>
+      <p id="updated">در حال بارگذاری…</p>
+    </div>
+  </header>
+
+  <div id="error" role="alert" hidden></div>
+
+  <main>
+    <section><h2>مهم‌ترین‌ها</h2><div id="important"></div></section>
+    <section><h2>کاربردی‌ها</h2><div id="practical"></div></section>
+    <section><h2>حتماً بخون</h2><div id="must_read"></div></section>
+  </main>
+
+  <script>
+    const DATA_URL = "data/latest.json";
+
+    const CATEGORIES = ["important", "practical", "must_read"];
+
+    function safeLink(url) {
+      try {
+        const u = new URL(url, location.href);
+        return u.protocol === "http:" || u.protocol === "https:" ? u.href : null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function formatDate(value) {
+      const d = new Date(value);
+      if (isNaN(d)) return "نامشخص";
+      return d.toLocaleString("fa-IR", { dateStyle: "long", timeStyle: "short" });
+    }
+
+    function renderItem(item) {
+      const article = document.createElement("article");
+
+      const h3 = document.createElement("h3");
+      const href = safeLink(item.link);
+      if (href) {
+        const a = document.createElement("a");
+        a.href = href;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = item.title || href;
+        h3.appendChild(a);
+      } else {
+        h3.textContent = item.title || "بدون عنوان";
+      }
+
+      const source = document.createElement("p");
+      source.className = "source";
+      source.textContent = "منبع: " + (item.source || "نامشخص");
+
+      const summary = document.createElement("p");
+      summary.className = "summary";
+      summary.textContent = item.summary || "";
+
+      article.append(h3, source, summary);
+      return article;
+    }
+
+    function render(data) {
+      document.getElementById("updated").textContent =
+        "آخرین به‌روزرسانی: " + formatDate(data.generated_at);
+
+      for (const cat of CATEGORIES) {
+        const box = document.getElementById(cat);
+        box.replaceChildren();
+        const items = Array.isArray(data[cat]) ? data[cat] : [];
+        if (items.length === 0) {
+          const p = document.createElement("p");
+          p.className = "empty";
+          p.textContent = "فعلاً خبری در این بخش نیست.";
+          box.appendChild(p);
+        } else {
+          for (const item of items) box.appendChild(renderItem(item));
+        }
+      }
+    }
+
+    function showError() {
+      document.getElementById("updated").textContent = "";
+      const box = document.getElementById("error");
+      box.textContent =
+        "متأسفیم، در حال حاضر امکان بارگذاری خبرها وجود ندارد. لطفاً چند دقیقه‌ی دیگر دوباره تلاش کنید.";
+      box.hidden = false;
+    }
+
+    fetch(DATA_URL, { cache: "no-store" })
+      .then((res) => {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(render)
+      .catch((err) => {
+        console.error("خطا در خواندن داده:", err);
+        showError();
+      });
+  </script>
+</body>
+</html>
