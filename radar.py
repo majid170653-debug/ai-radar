@@ -208,6 +208,14 @@ def categorize_keywords(items):
     return result
 
 
+def move_all_to_important(categorized):
+    """همه‌ی خبرها را، هر دسته‌ای که گرفته باشند، در important می‌گذارد."""
+    result = {cat: [] for cat in CATEGORIES}
+    for cat in CATEGORIES:
+        result["important"].extend(categorized.get(cat, []))
+    return result
+
+
 # ---------- دسته‌بندی با Claude ----------
 
 def load_api_key(env_file=ENV_FILE):
@@ -348,7 +356,7 @@ def main():
     if categorized is None:
         categorized = categorize_keywords(recent)
 
-    output = build_output(categorized)
+    output = build_output(move_all_to_important(categorized))
     write_output(output)
     counts = ", ".join(f"{cat}: {len(output[cat])}" for cat in CATEGORIES)
     print(f"نوشته شد در {OUTPUT_FILE.relative_to(ROOT)} — {counts}", file=sys.stderr)
