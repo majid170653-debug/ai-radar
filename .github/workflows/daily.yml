@@ -1,0 +1,60 @@
+name: Daily radar
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      - name: Run radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python radar.py
+
+      - name: Commit latest.json to radar-data
+        env:
+          BRANCH: radar-data
+          TREE: ${{ runner.temp }}/radar-data
+        run: |
+          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin "$BRANCH" > /dev/null; then
+            git fetch --depth=1 origin "$BRANCH"
+            git worktree add -B "$BRANCH" "$TREE" FETCH_HEAD
+          else
+            git worktree add --orphan -b "$BRANCH" "$TREE"
+          fi
+
+          mkdir -p "$TREE/data"
+          cp data/latest.json "$TREE/data/latest.json"
+          cd "$TREE"
+          git add -f data/latest.json
+
+          if git diff --cached --quiet; then
+            echo "latest.json did not change; nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "Update radar data"
+          git push origin "HEAD:refs/heads/$BRANCH"
