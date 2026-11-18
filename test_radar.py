@@ -154,6 +154,19 @@ class KeywordCategoryTest(unittest.TestCase):
         self.assertEqual(result["practical"][0]["summary"], "Desc text")
 
 
+class MoveAllToImportantTest(unittest.TestCase):
+    def test_every_item_ends_in_important(self):
+        items = [
+            make_item("How to build an agent with the new Python SDK", "A step-by-step tutorial."),
+            make_item("Why scaling laws are not enough: an analysis", "A deep dive essay."),
+            make_item("Startup raises $2 billion at record valuation"),
+        ]
+        result = radar.move_all_to_important(radar.categorize_keywords(items))
+        self.assertEqual(len(result["important"]), 3)
+        self.assertEqual(result["practical"], [])
+        self.assertEqual(result["must_read"], [])
+
+
 class ModelResultTest(unittest.TestCase):
     def test_extract_and_apply(self):
         items = [make_item("One"), make_item("Two")]
