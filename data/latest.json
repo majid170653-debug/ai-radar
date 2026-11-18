@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-18T23:25:15+00:00",
+  "generated_at": "2026-11-18T23:33:10+00:00",
   "important": [
+    {
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-18T23:25:17+00:00",
+      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said."
+    },
     {
       "title": "The nation’s largest school districts consider ditching Google Search",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
@@ -37,25 +44,18 @@
       "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks."
     },
     {
+      "title": "Introducing Gemini 4 Neon",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "source": "Google DeepMind",
+      "date": "2026-11-18T21:35:43+00:00",
+      "summary": "Introducing Gemini 4 Neon"
+    },
+    {
       "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
       "link": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
       "source": "TechCrunch AI",
       "date": "2026-11-18T21:34:13+00:00",
       "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks."
-    },
-    {
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "link": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-18T21:31:21+00:00",
-      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang."
-    },
-    {
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-18T20:07:01+00:00",
-      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said."
     }
   ],
   "practical": [],
