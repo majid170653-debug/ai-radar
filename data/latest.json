@@ -1,105 +1,119 @@
 {
-  "generated_at": "2026-11-19T11:48:40+00:00",
+  "generated_at": "2026-11-20T11:49:57+00:00",
   "important": [
     {
-      "title": "llm-gemini 0.38",
-      "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
       "source": "Simon Willison",
-      "date": "2026-11-18T23:59:20+00:00",
-      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon. I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price, and…"
+      "date": "2026-11-20T02:49:57+00:00",
+      "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying…"
     },
     {
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "source": "TechCrunch AI",
-      "date": "2026-11-18T23:45:00+00:00",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world."
+      "date": "2026-11-20T00:56:01+00:00",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
     },
     {
-      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "source": "TechCrunch AI",
-      "date": "2026-11-18T23:25:17+00:00",
-      "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said."
+      "date": "2026-11-20T00:43:50+00:00",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
     },
     {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
       "source": "The Verge AI",
-      "date": "2026-11-18T23:18:35+00:00",
-      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without…"
+      "date": "2026-11-19T22:31:41+00:00",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic…"
     },
     {
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-18T23:17:28+00:00",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO."
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge AI",
+      "date": "2026-11-19T21:59:35+00:00",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and…"
     },
     {
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
       "source": "TechCrunch AI",
-      "date": "2026-11-18T22:58:11+00:00",
-      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers."
+      "date": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable."
     },
     {
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
       "source": "TechCrunch AI",
-      "date": "2026-11-18T22:11:15+00:00",
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis."
+      "date": "2026-11-19T21:42:31+00:00",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say."
     },
     {
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-18T21:57:40+00:00",
-      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks."
+      "title": "Meta’s Muse Charm might cost $300",
+      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "source": "The Verge AI",
+      "date": "2026-11-19T20:22:17+00:00",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in…"
     }
   ],
   "practical": [
+    {
+      "title": "PostgreSQL 19 Released",
+      "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "source": "Simon Willison",
+      "date": "2026-11-19T20:43:57+00:00",
+      "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely…"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "source": "The Verge AI",
+      "date": "2026-11-19T20:05:06+00:00",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]"
+    },
+    {
+      "title": "Canva adds an AI ‘off’ button",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "source": "The Verge AI",
+      "date": "2026-11-19T12:30:00+00:00",
+      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't…"
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "link": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "date": "2026-11-19T00:00:00+00:00",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+    },
+    {
+      "title": "See PR scans in action",
+      "link": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI",
+      "date": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI",
+      "date": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI",
+      "date": "2026-11-19T00:00:00+00:00",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
+    },
     {
       "title": "Why your fine-tuning job takes longer than the FLOPs say",
       "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "source": "Hugging Face",
       "date": "2026-11-18T18:53:43+00:00",
       "summary": "Why your fine-tuning job takes longer than the FLOPs say"
-    },
-    {
-      "title": "datasette-arrows 0.1a0",
-      "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
-      "source": "Simon Willison",
-      "date": "2026-11-18T17:09:59+00:00",
-      "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats…"
-    },
-    {
-      "title": "Suno now lets you make AI videos for your AI music",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-      "source": "The Verge AI",
-      "date": "2026-11-18T11:16:53+00:00",
-      "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be…"
-    },
-    {
-      "title": "Managing frontier AI risk: From training to deployment",
-      "link": "https://openai.com/index/managing-frontier-ai-risk",
-      "source": "OpenAI",
-      "date": "2026-11-18T06:00:00+00:00",
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
-    },
-    {
-      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "link": "https://huggingface.co/blog/moe-expert-streaming",
-      "source": "Hugging Face",
-      "date": "2026-11-18T00:00:00+00:00",
-      "summary": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers"
-    },
-    {
-      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
-      "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
-      "source": "Simon Willison",
-      "date": "2026-11-17T16:48:33+00:00",
-      "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of…"
     }
   ],
   "must_read": [
@@ -109,41 +123,6 @@
       "source": "TechCrunch AI",
       "date": "2026-11-19T00:42:56+00:00",
       "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect."
-    },
-    {
-      "title": "This smell startup says its AI nose is as good as a human’s",
-      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-18T10:20:30+00:00",
-      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI…"
-    },
-    {
-      "title": "Research acceleration: The jagged frontier",
-      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source": "OpenAI",
-      "date": "2026-11-18T08:00:00+00:00",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
-    },
-    {
-      "title": "Inside the Codex sandbox",
-      "link": "https://openai.com/index/inside-the-codex-sandbox",
-      "source": "OpenAI",
-      "date": "2026-11-18T08:00:00+00:00",
-      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
-    },
-    {
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "source": "Ars Technica AI",
-      "date": "2026-11-18T00:27:29+00:00",
-      "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next."
-    },
-    {
-      "title": "Research Reports",
-      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-17T14:39:46+00:00",
-      "summary": "To access a report, click on the corresponding image below."
     }
   ]
 }
