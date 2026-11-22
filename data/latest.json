@@ -1,84 +1,77 @@
 {
-  "generated_at": "2026-11-21T11:15:36+00:00",
+  "generated_at": "2026-11-22T11:35:10+00:00",
   "important": [
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-21T21:37:10+00:00",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-21T21:07:42+00:00",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+    },
+    {
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge AI",
+      "date": "2026-11-21T20:03:37+00:00",
+      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of…"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-21T17:00:00+00:00",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "date": "2026-11-21T16:00:00+00:00",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too."
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "date": "2026-11-21T15:00:00+00:00",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this…"
+    },
+    {
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "date": "2026-11-21T14:00:00+00:00",
+      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of…"
+    },
     {
       "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
       "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
       "source": "Ars Technica AI",
       "date": "2026-11-20T21:47:10+00:00",
       "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?"
-    },
-    {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-20T19:32:08+00:00",
-      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
-    },
-    {
-      "title": "Quoting Ravi Vakil",
-      "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
-      "source": "Simon Willison",
-      "date": "2026-11-20T19:21:49+00:00",
-      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford…"
-    },
-    {
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "source": "The Verge AI",
-      "date": "2026-11-20T18:50:19+00:00",
-      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our…"
-    },
-    {
-      "title": "The most misunderstood graph in AI just got a major update",
-      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "source": "MIT Technology Review",
-      "date": "2026-11-20T18:15:15+00:00",
-      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s…"
-    },
-    {
-      "title": "Chips can survive the space environment — can their financing?",
-      "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-20T17:40:01+00:00",
-      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
-    },
-    {
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "source": "The Verge AI",
-      "date": "2026-11-20T16:34:13+00:00",
-      "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic…"
-    },
-    {
-      "title": "Quoting Levent Alpöge",
-      "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-      "source": "Simon Willison",
-      "date": "2026-11-20T16:30:48+00:00",
-      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the…"
     }
   ],
   "practical": [
+    {
+      "title": "Muru",
+      "link": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison",
+      "date": "2026-11-21T23:56:28+00:00",
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development…"
+    },
     {
       "title": "Google rolls out new search homepage with AI chat history and no search button",
       "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
       "source": "Ars Technica AI",
       "date": "2026-11-20T21:58:29+00:00",
       "summary": "Google search is making it even easier to access AI tools on the search page."
-    },
-    {
-      "title": "PostgreSQL 19 Released",
-      "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
-      "source": "Simon Willison",
-      "date": "2026-11-19T20:43:57+00:00",
-      "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely…"
-    },
-    {
-      "title": "Google is putting AI chats right on the homepage",
-      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "source": "The Verge AI",
-      "date": "2026-11-19T20:05:06+00:00",
-      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]"
     }
   ],
   "must_read": [
