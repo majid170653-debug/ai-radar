@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-27T12:36:41+00:00",
+  "generated_at": "2026-11-28T11:55:19+00:00",
   "important": [
+    {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "date": "2026-11-27T14:00:00+00:00",
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]"
+    },
     {
       "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
       "link": "https://huggingface.co/blog/video-trainium3",
@@ -21,85 +28,22 @@
       "source": "Simon Willison",
       "date": "2026-11-26T15:09:31+00:00",
       "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious…"
-    },
-    {
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "source": "Hugging Face",
-      "date": "2026-11-26T11:37:17+00:00",
-      "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
-    },
-    {
-      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
-      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
-      "source": "The Verge AI",
-      "date": "2026-11-26T09:54:40+00:00",
-      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more…"
-    },
-    {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-      "source": "Simon Willison",
-      "date": "2026-11-26T05:08:46+00:00",
-      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my…"
-    },
-    {
-      "title": "Quoting Scott Aaronson",
-      "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
-      "source": "Simon Willison",
-      "date": "2026-11-25T23:26:32+00:00",
-      "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his…"
-    },
-    {
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "source": "TechCrunch AI",
-      "date": "2026-11-25T22:44:32+00:00",
-      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
     }
   ],
   "practical": [
     {
-      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
-      "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "title": "datasette-charts 0.4a0",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
       "source": "Simon Willison",
-      "date": "2026-11-26T06:08:25+00:00",
-      "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its most attractive…"
+      "date": "2026-11-27T23:57:17+00:00",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of…"
     },
     {
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-      "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "source": "Hugging Face",
-      "date": "2026-11-26T05:05:36+00:00",
-      "summary": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference"
-    },
-    {
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "link": "https://huggingface.co/blog/training-swarms",
-      "source": "Hugging Face",
-      "date": "2026-11-26T00:00:00+00:00",
-      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems"
-    },
-    {
-      "title": "datasette-charts 0.3a0",
-      "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "title": "datasette-mcp 0.4",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
       "source": "Simon Willison",
-      "date": "2026-11-25T18:16:50+00:00",
-      "summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite, where you can tweak the…"
-    },
-    {
-      "title": "Nothing offers a full look at its AI earbuds and charging case",
-      "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-      "source": "The Verge AI",
-      "date": "2026-11-25T16:00:59+00:00",
-      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes…"
-    },
-    {
-      "title": "Has vibe coding made open source the new normal for synths?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
-      "source": "The Verge AI",
-      "date": "2026-11-25T13:00:00+00:00",
-      "summary": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last…"
+      "date": "2026-11-27T00:26:17+00:00",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44. Tags: model-context-protocol, datasette"
     }
   ],
   "must_read": [
